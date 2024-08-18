@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+    int integer = 10;
+    unsigned int u_integer = 20;
+    float f_number = 12.34f;
+    double d_number = 123.456;
+    char character = 'A';
+    char string[] = "Hello, World!";
+    int *pointer = &integer;
+
+    printf("Integer: %d\n", integer);
+    printf("Unsigned Integer: %u\n", u_integer);
+    printf("Floating-point Number: %f\n", f_number);
+    printf("Double: %lf\n", d_number);
+    printf("Character: %c\n", character);
+    printf("String: %s\n", string);
+    printf("Pointer Address: %p\n", pointer);
+    printf("Hexadecimal: %x\n", integer);
+    printf("Octal: %o\n", integer);
+    printf("Scientific Notation: %e\n", d_number);
+    printf("Percent Sign: %%\n");
+
+    return 0;
+}
+output
+/tmp/JcmFMySYr7.o
+Integer: 10
+Unsigned Integer: 20
+Floating-point Number: 12.340000
+Double: 123.456000
+Character: A
+String: Hello, World!
+Pointer Address: 0x7fff8a32154c
+Hexadecimal: a
+Octal: 12
+Scientific Notation: 1.234560e+02
+Percent Sign: %
+
+
+=== Code Execution Successful ===
